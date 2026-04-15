@@ -57,6 +57,7 @@ This project follows clean OOP principles with clear separation of concerns:
 
 <img width="758" height="785" alt="snakeGame" src="https://github.com/user-attachments/assets/3ba7a1d6-16ed-4d7e-ba4e-e270a483dd38" />
 <img width="755" height="785" alt="snakeGame2" src="https://github.com/user-attachments/assets/2ebd4dd4-c0ce-41ab-a8fa-b46fbf8cf901" />
+<img width="748" height="785" alt="GameOver" src="https://github.com/user-attachments/assets/272617d9-3a89-42cc-a295-1208e5cec18f" />
 
 
 ---
