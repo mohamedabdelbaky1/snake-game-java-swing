@@ -55,9 +55,8 @@ This project follows clean OOP principles with clear separation of concerns:
 
 ## 📸 Screenshots
 
+<img width="758" height="785" alt="snakeGame" src="https://github.com/user-attachments/assets/3ba7a1d6-16ed-4d7e-ba4e-e270a483dd38" />
 
-![Gameplay](assets/gameplay.png)
-![Game Over](assets/game-over.png)
 
 ---
 
