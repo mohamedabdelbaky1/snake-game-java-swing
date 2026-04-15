@@ -1,23 +1,121 @@
-<<<<<<< HEAD
-## Getting Started
+# 🐍 Snake Game - Java Swing
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A classic **Snake Game** built using **Java Swing** with a clean **Object-Oriented Programming (OOP)** architecture.
+This project focuses on mastering Java fundamentals, GUI development, and game logic design.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 🎮 Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+* Smooth grid-based snake movement
+* Real-time keyboard controls
+* Dynamic food spawning
+* Snake growth mechanics
+* Score tracking system
+* Wall collision detection
+* Self-collision detection
+* Pause / Resume functionality (`P`)
+* Restart game (`R`)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🧠 Architecture & Design
 
-## Dependency Management
+This project follows clean OOP principles with clear separation of concerns:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-=======
-# snake-game-java-swing
-Classic Snake Game built with Java Swing using clean OOP architecture.
->>>>>>> 2b0540e0f7cf849ae898ff9c3246ff191acd866d
+* **Main** → Application entry point
+* **GameFrame** → Main window setup
+* **GamePanel** → Rendering and game loop
+* **GameController** → Core game logic
+* **GameState** → Manages game state (running, paused, game over)
+* **Snake** → Handles movement and growth
+* **Food** → Handles food spawning logic
+* **InputHandler** → Handles keyboard input
+* **Direction** → Enum for movement directions
+
+### 💡 Design Principles Applied
+
+* Encapsulation
+* Single Responsibility Principle
+* Loose Coupling
+* Event-driven programming
+* Clean architecture separation
+
+---
+
+## 🕹 Controls
+
+| Key     | Action         |
+| ------- | -------------- |
+| ↑ ↓ ← → | Move snake     |
+| P       | Pause / Resume |
+| R       | Restart game   |
+
+---
+
+## 📸 Screenshots
+
+
+![Gameplay](assets/gameplay.png)
+![Game Over](assets/game-over.png)
+
+---
+
+## ⚙️ How to Run
+
+### 1. Compile
+
+```bash
+javac src/*.java
+```
+
+### 2. Run
+
+```bash
+java -cp src Main
+```
+
+---
+
+## 📁 Project Structure
+
+```text
+snake-game-java-swing/
+├── src/
+│   ├── Main.java
+│   ├── GameFrame.java
+│   ├── GamePanel.java
+│   ├── GameController.java
+│   ├── GameState.java
+│   ├── Snake.java
+│   ├── Food.java
+│   ├── Direction.java
+│   └── InputHandler.java
+├── assets/
+│   ├── snakeGame.png
+│   └── snakeGame2.png
+├── README.md
+
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Add start screen
+* Save high score
+* Add sound effects
+* Difficulty levels
+* Improve UI/animations
+
+---
+
+## 👨‍💻 Author
+
+**Mohamed Abdelbaky**
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
